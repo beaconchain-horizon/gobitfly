@@ -1,13 +1,13 @@
 # gobitfly · Open‑source Ethereum infrastructure
 
-[![Maintained by](https://img.shields.io/badge/maintained%20by-Mahdi%20Amolimoghaddam-blue)](https://github.com/beaconchain-com)
+[![Maintained by](https://img.shields.io/badge/maintained%20by-Mahdi%20Amolimoghaddam-blue)](https://github.com/beaconchain-us)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 **gobitfly** is an open‑source organization building transparent, reliable tooling for the Ethereum consensus layer (Beacon Chain) and beyond.  
 We develop the explorer, dashboards, and APIs that validators, stakers, and developers rely on every day.
 
 > **Ownership & Governance**  
-> This organization is maintained by **Mahdi Amolimoghaddam** (`beaconchain-com`) under the principles of open‑source governance.  
+> This organization is maintained by **Mahdi Amolimoghaddam** (`beaconchain-us`) under the principles of open‑source governance.  
 > The original codebase was created by the Bitfly team. All subsequent development, maintenance, and infrastructure are managed independently by the current maintainer.
 
 ---
@@ -39,10 +39,10 @@ The main codebases are organized into focused repositories:
 
 | Repository | Description |
 | :--- | :--- |
-| [eth2‑beaconchain‑explorer](https://github.com/beaconchain-com/eth2-beaconchain-explorer) | Backend (Go) + Frontend (React) for the Ethereum Beacon Chain explorer |
-| [eth2‑beaconchain‑explorer‑app](https://github.com/beaconchain-com/eth2-beaconchain-explorer-app) | Mobile dashboard for iOS and Android |
-| [beaconcha.in](https://github.com/beaconchain-com/beaconcha.in) | Configuration and deployment for the main beaconcha.in site |
-| [Beaconchain.us](https://github.com/beaconchain-com/Beaconchain.us) | US‑hosted version with offline dashboard and digital signature |
+| [eth2‑beaconchain‑explorer](https://github.com/beaconchain-us/eth2-beaconchain-explorer) | Backend (Go) + Frontend (React) for the Ethereum Beacon Chain explorer |
+| [eth2‑beaconchain‑explorer‑app](https://github.com/beaconchain-us/eth2-beaconchain-explorer-app) | Mobile dashboard for iOS and Android |
+| [beaconcha.in](https://github.com/beaconchain-us/beaconcha.in) | Configuration and deployment for the main beaconcha.in site |
+| [Beaconchain.us](https://github.com/beaconchain-us/Beaconchain.us) | US‑hosted version with offline dashboard and digital signature |
 
 ---
 
