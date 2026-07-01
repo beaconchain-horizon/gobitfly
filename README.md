@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gobitfly · Open‑source Ethereum Infrastructure</title>
     <style>
         body {
@@ -35,10 +35,6 @@
         h2 {
             font-size: 1.5rem;
             margin-top: 2rem;
-            color: #f0f6fc;
-        }
-        h3 {
-            font-size: 1.2rem;
             color: #f0f6fc;
         }
         a {
@@ -112,33 +108,31 @@
 </head>
 <body>
     <div class="container">
-        <h1>
-            gobitfly <small>· Open‑source Ethereum Infrastructure</small>
-        </h1>
+        <h1>gobitfly <small>· Open‑source Ethereum Infrastructure</small></h1>
         <p>
             <span class="badge badge-blue">Maintained by Mahdi Amolimoghaddam</span>
             <span class="badge">License: GPL v3</span>
         </p>
         <p>
-            <strong>gobitfly</strong> is an open‑source organization building transparent, reliable tooling for the 
-            <strong>Ethereum consensus layer (Beacon Chain)</strong> and beyond. 
+            <strong>gobitfly</strong> is an open‑source organization building transparent, reliable tooling for the
+            <strong>Ethereum consensus layer (Beacon Chain)</strong> and beyond.
             We develop the explorer, dashboards, and APIs that validators, stakers, and developers rely on every day.
         </p>
 
         <div class="highlight-box">
-            <strong>Ownership &amp; Governance</strong><br>
-            This organization is maintained by <strong>Mahdi Amolimoghaddam</strong> (<code>beaconchain-us</code>) under the principles of open‑source governance. 
+            <strong>Ownership &amp; Governance</strong><br />
+            This organization is maintained by <strong>Mahdi Amolimoghaddam</strong> (<code>beaconchain-us</code>) under the principles of open‑source governance.
             The original codebase was created by the Bitfly team. All subsequent development, maintenance, and infrastructure are managed independently by the current maintainer.
         </div>
 
         <h2>📜 History</h2>
         <p>
-            The <strong>gobitfly</strong> organization was originally founded as part of <strong>Bitfly GmbH</strong> (later <strong>bitfly explorer gmbh</strong>), 
+            The <strong>gobitfly</strong> organization was originally founded as part of <strong>Bitfly GmbH</strong> (later <strong>bitfly explorer gmbh</strong>),
             the Austrian company behind the beaconcha.in explorer. The projects under this organization quickly became essential infrastructure for the Ethereum staking ecosystem.
         </p>
         <p>
-            In <strong>2024</strong>, the decision was made to separate the open‑source development from the original company. 
-            <strong>Mahdi Amolimoghaddam</strong>, a long‑time core contributor and the creator of the Beaconchain Dashboard, assumed leadership of the independent open‑source organization. 
+            In <strong>2024</strong>, the decision was made to separate the open‑source development from the original company.
+            <strong>Mahdi Amolimoghaddam</strong>, a long‑time core contributor and the creator of the Beaconchain Dashboard, assumed leadership of the independent open‑source organization.
             Since then, all projects have been maintained and expanded independently, with a strong focus on community governance, transparency, and offline‑first architecture.
         </p>
         <p>
@@ -148,11 +142,7 @@
         <h2>🔗 Live Services</h2>
         <table>
             <thead>
-                <tr>
-                    <th>Service</th>
-                    <th>Domain</th>
-                    <th>Status</th>
-                </tr>
+                <tr><th>Service</th><th>Domain</th><th>Status</th></tr>
             </thead>
             <tbody>
                 <tr><td>Beaconchain Explorer</td><td><a href="https://beaconcha.in">beaconcha.in</a></td><td>Live</td></tr>
@@ -163,13 +153,9 @@
         </table>
 
         <h2>📦 Core Repositories</h2>
-        <p>The main codebases are organized into focused repositories:</p>
         <table>
             <thead>
-                <tr>
-                    <th>Repository</th>
-                    <th>Description</th>
-                </tr>
+                <tr><th>Repository</th><th>Description</th></tr>
             </thead>
             <tbody>
                 <tr>
@@ -188,38 +174,36 @@
                     <td><a href="https://github.com/beaconchain-us/Beaconchain.us">Beaconchain.us</a></td>
                     <td>US‑hosted version with offline dashboard and digital signature</td>
                 </tr>
-                <!-- Added repository requested by user -->
-                <tr style="background-color: #1c2333; border-left: 3px solid #58a6ff;">
-                    <td><strong><a href="https://github.com/beaconchain-horizon/Beaconchain" style="color: #f0f6fc;">Beaconchain</a></strong></td>
+                <tr style="background-color:#1c2333; border-left:3px solid #58a6ff;">
+                    <td><strong><a href="https://github.com/beaconchain-horizon/Beaconchain" style="color:#f0f6fc;">Beaconchain</a></strong></td>
                     <td>
-                        <strong>Official identity, gateway, and documentation hub</strong> for the independent <strong>Horizon</strong> ecosystem. 
+                        <strong>Official identity, gateway, and documentation hub</strong> for the independent <strong>Horizon</strong> ecosystem.
                         This repository includes comprehensive documentation, Merkle‑verified license rules, and an offline‑first architecture developed by Mahdi Amolimoghaddam.
                     </td>
                 </tr>
-                <!-- End of addition -->
             </tbody>
         </table>
-        <p style="font-size: 0.9rem; color: #8b949e;">
+        <p style="font-size:0.9rem; color:#8b949e;">
             ⚡ The <code>Beaconchain</code> repository (<code>beaconchain-horizon/Beaconchain</code>) was formerly associated with the name <code>beaconcha.in</code>, but now operates as a fully independent ecosystem under the <strong>Horizon</strong> brand.
         </p>
 
         <h2>🤝 Contributing</h2>
         <p>
-            We welcome contributions at any of the repositories above.<br>
+            We welcome contributions at any of the repositories above.<br />
             Please read the <strong>Contributing</strong> guide in each repository before opening issues or pull requests.
         </p>
         <div class="highlight-box">
-            <strong>Support &amp; Contact</strong><br>
-            📧 <a href="mailto:beaconchain@beaconchain.us">beaconchain@beaconchain.us</a><br>
-            🆔 <a href="mailto:gamma.mahdii@gmail.com">gamma.mahdii@gmail.com</a><br>
+            <strong>Support &amp; Contact</strong><br />
+            📧 <a href="mailto:beaconchain@beaconchain.us">beaconchain@beaconchain.us</a><br />
+            🆔 <a href="mailto:gamma.mahdii@gmail.com">gamma.mahdii@gmail.com</a><br />
             🌐 <a href="https://beaconchain.us">beaconchain.us</a>
         </div>
 
-        <hr>
+        <hr />
 
         <h2>📄 License</h2>
         <p>
-            All projects are released under the <strong>GNU General Public License v3.0</strong> unless otherwise noted. 
+            All projects are released under the <strong>GNU General Public License v3.0</strong> unless otherwise noted.
             See the <code>LICENSE</code> file in each repository for full details.
         </p>
 
